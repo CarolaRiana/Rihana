@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sistema da Carola — Bem-vinda</title>
+<meta name="description" content="Nexus: um chassis, infinitas configurações. Infraestrutura de precisão para equipas exigentes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="brand" href="#top"><span class="dot"></span>Nexus System</a>
+  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#sobre">Sobre</a>
+    <a href="#sistemas">Sistemas</a>
+    <a href="#plataforma">Plataforma</a>
+    <a href="#numeros">Números</a>
+    <a class="btn btn-sm" href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <p class="tag">Seja bem-vinda!</p>
+      <h1>Rihana Feshion</h1>
+      <p class="lead">Rihana Feshion.Vista-se de confianca ,e o seu melhor look .</p>
+      <div class="actions">
+        <a class="btn" href="#sistemas">Visite o nosso sistema</a>
+        <a class="btn btn-ghost" href="#contacto">Moda passa ,estilo fica!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="wrap">
+      <div class="head">
+        <span class="mono / </span>
+        <h2>Feito para realcar voce..</h2>
+        <p>Elegancia,Autentica ,luxo acessivel.</p>
+      </div>
+      <div class="card card-feature reveal">
+        <img src="images/nexus-macro.jpg" alt="Vista macro do módulo central Nexus">
+        <div class="card-feature-body">
+          <p class="mono tag-sm">NÓ / NX-07 TELEMETRIA</p>
+          <div class="stat-row"><span>EFICIÊNCIA</span><strong>98,4%</strong></div>
+          <div class="stat-row"><span>DELTA TÉRMICO</span><strong>-12,6 °C</strong></div>
+          <div class="stat-row"><span>LATÊNCIA DE SYNC</span><strong>0,8 ms</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SISTEMAS -->
+  <section class="section alt" id="sistemas">
+    <div class="wrap">
+      <div class="head">
+        <span class="mono">02 / Sistemas</span>
+        <h2>Atua melhor versao, encotras aqui !.</h2>
+      </div>
+      <div class="grid grid-4">
+        <article class="card reveal">
+          <img src="images/1.jpg" alt="Matriz de processamento central">
+          <div class="card-body"><span class="mono">1050 / S</span><h3>Conjunto</h3>
+          <p>.</p></div>
+        </article>
+        <article class="card reveal">
+          <img src="images/2.jpg" alt="Circuito de refrigeração líquida">
+          <div class="card-body"><span class="mono">1100 / M</span><h3>Camisete</h3>
+          <p>.</p></div>
+        </article>
+        <article class="card reveal">
+          <img src="images/3.jpg" alt="Rede de distribuição de energia">
+          <div class="card-body"><span class="mono">1200 / Xs</span><h3>Camisete</h3>
+          <p>.</p></div>
+        </article>
+        <article class="card reveal">
+          <img src="images/5.jpg" alt="Camada de interligação óptica">
+          <div class="card-body"><span class="mono">1250 / XL</span><h3>Blusa</h3>
+          <p>.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLATAFORMA (tabs) -->
+  <section class="section" id="plataforma">
+    <div class="wrap">
+      <div class="head">
+        <span class="mono">03 / Plataforma</span>
+        <h2>Entras como estas ,sai como diva!.</h2>
+      </div>
+      <div class="card tabs reveal">
+        <div class="tabs-list" role="tablist">
+          <button class="tab active" role="tab" aria-selected="true" data-goto="core"><span class="mono">01</span> Core<p>O coração estrutural: uma estrutura de alumínio fresado que posiciona cada módulo a cinco mícrones.</p></button>
+          <button class="tab" role="tab" aria-selected="false" data-goto="fluidics"><span class="mono">02</span> Fluidics<p>Colectores de ligação rápida encaminham o líquido refrigerante sem uma única linha exposta.</p></button>
+          <button class="tab" role="tab" aria-selected="false" data-goto="sync"><span class="mono">03</span> Sync<p>Um plano de temporização dedicado distribui um único relógio por todos os nós, de rack a rack.</p></button>
+        </div>
+        <div class="tabs-view">
+          <img class="panel active" data-panel="core" src="images/nexus-tab-core.jpg" alt="Estrutura central Nexus">
+          <img class="panel" data-panel="fluidics" src="images/nexus-tab-fluidics.jpg" alt="Colector de fluidos Nexus">
+          <img class="panel" data-panel="sync" src="images/nexus-tab-sync.jpg" alt="Plano de temporização Nexus">
+          <span class="fig mono" id="fig">FIG. 01 / ESTRUTURA CORE</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NÚMEROS -->
+  <section class="section dark" id="numeros">
+    <div class="wrap">
+      <div class="head">
+        <span class="mono">04 / Números</span>
+        <h2>Autoestima em forma de look.</h2>
+      </div>
+      <div class="grid grid-4">
+        <div class="card stat reveal"><strong>150</strong><span>Pecas na loja</span></div>
+        <div class="card stat reveal"><strong>±55</strong><span>pecas vendidas</span></div>
+        <div class="card stat reveal"><strong>6</strong><span>segunda a sabado</span></div>
+        <div class="card stat reveal"><strong>10</strong><span>dias de espera</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="wrap">
+      <div class="card cta reveal">
+        <h2>Com amor,(Rihana Feshion)</h2>
+        <p>Look completo sem falir ,obrigada pela preferencia.</p>
+        <a class="btn" href="mailto:ola@exemplo.com">volte sempre!.</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-in">
+    <span class="brand"><span class="dot"></span>Nexus System</span>
+    <span class="mono small"> <a href="https://templatemo.com" target="_blank" rel="noopener">TEMPLATEMO</a></span>
+    <a class="mono small" href="#top"></a>
+  </div>
+</footer>
+<div class="progress"><div id="bar"></div></div>
+<script src="script.js"></script>
+</body>
+</html>
